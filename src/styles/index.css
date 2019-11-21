@@ -1,0 +1,35 @@
+@import "suitcss";
+@import "suitcss-utils-flex";
+@import "suitcss-utils-size";
+@import "suitcss-utils-spacing";
+
+:root {
+  --color-primary: rgb(239, 147, 147);
+  --color-primary-translucent: rgba(239, 147, 147, 0.85);
+  --color-primary-light: rgb(245, 173, 173);
+  --color-light: rgb(241, 241, 241);
+  --color-dark: rgb(34, 34, 34);
+  --color-grey: rgb(138, 138, 138);
+  --color-grey-light: rgb(218, 218, 218);
+}
+
+.Header {
+  background-color: var(--color-primary);
+  border-bottom-color: var(--color-grey);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-bottom: 1px;
+}
+
+.Container {
+  width: 40rem;
+}
+
+.Rows {
+  border-top: 1px solid;
+  border-top-color: var(--color-grey-light);
+}
+
+.SearchFilter {
+  background-color: var(--color-primary-light);
+}
